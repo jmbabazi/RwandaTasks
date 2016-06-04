@@ -1,6 +1,6 @@
 Tasks
 ______
-Ansible for ubuntu (creating a new openmrs child server using ansible).
+* Ansible for ubuntu (creating a new openmrs child server using ansible).
 Mail server for child servers using Thunderbird . (We can use IRedMail & RoundCube)
 Upgrade jira and confluence.
 Zabbix for child servers using MTN.
