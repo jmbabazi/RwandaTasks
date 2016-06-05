@@ -10,3 +10,5 @@ iptables -t nat -F
 iptables -I INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
 iptables -I FORWARD  -m state --state RELATED,ESTABLISHED -j ACCEPT
 iptables -t nat -I POSTROUTING -o $WAN -j MASQUERADE
+
+
