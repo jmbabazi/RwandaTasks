@@ -1,4 +1,4 @@
-- hosts: Rwanda
+- hosts: Rwinkwavu
   become: yes
   gather_facts: true
   roles:
