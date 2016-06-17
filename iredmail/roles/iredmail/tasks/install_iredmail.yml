@@ -1,0 +1,10 @@
+- name: download src
+  sudo: False
+  get_url: url={{ iRedMail_url }} dest={{ tmp_folder }}
+
+- name: unarchive
+  sudo: True
+  unarchive: copy=no src={{ tmp_folder }}/{{ iRedMail_version }}.{{compressed_format}} creates=no dest=/opt
+
+- name: make IRedMail.sh executable
+  command: chmod 755 /opt/{{ iRedMail_version }}/iRedMail.sh

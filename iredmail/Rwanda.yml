@@ -1,0 +1,5 @@
+- hosts: Rwanda
+  become: yes
+  gather_facts: true
+  roles:
+    - iredmail 
